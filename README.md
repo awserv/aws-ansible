@@ -1,1 +1,1 @@
-# aws-ansible
+aws ec2.micro-ansible
