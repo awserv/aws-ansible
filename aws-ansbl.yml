@@ -6,13 +6,12 @@
 ---
     - name: aws ec2 t2.micro
       hosts: localhost
-      gather_facts: False
       
       vars:
         region: eu-central-1
         instance_type: t2.micro
         ami: ami-0e342d72b12109f91  
-        keypair: my-key2
+        keypair: one
         
       tasks:
         - name: aws ec2 t2.micro
